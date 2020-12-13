@@ -9,7 +9,7 @@ import os
 email = pyip.inputEmail('\nEmail: ')
 password = pyip.inputPassword('Password: ')
 
-user_to_search = input('\nWhat user to search for? ')
+user_to_search = input('\nUser to stalk: ')
 
 folder = Path(user_to_search + 'IGphotos')
 os.makedirs(folder)
